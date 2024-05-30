@@ -1,0 +1,13 @@
+package clases;
+
+public class Punto {
+	
+	int x;
+	int y;
+	
+	public Punto() {
+		this.x = 0;
+		this.y = 0;
+	}
+
+}

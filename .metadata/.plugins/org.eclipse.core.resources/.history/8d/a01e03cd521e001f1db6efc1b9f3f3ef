@@ -1,0 +1,26 @@
+package clases;
+
+public class Punto {
+	
+	
+	 
+	int x;
+	int y;
+	
+	
+	/**
+	 * Constructor default agrega valores a X e Y
+	 * 
+	 * 
+	 */
+	public Punto() {
+		this.x = 0;
+		this.y = 0;
+	}
+	
+	public Punto(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+
+}

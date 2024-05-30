@@ -1,0 +1,78 @@
+package clases;
+
+public class Punto {
+	
+	
+	 
+	int x;
+	int y;
+	
+	
+	/**
+	 * Constructor default agrega valores a X e Y
+	 * 
+	 * 
+	 */
+	public Punto() {
+		this.x = 0;
+		this.y = 0;
+	}
+	
+	/**
+	 * Constructor que crea objeto con los parametros pasados "X" e "Y"
+	 * 
+	 * @param x
+	 * @param y
+	 */
+	public Punto(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+	
+	
+	/**
+	 * metodo get para devolver el valor de x
+	 * 
+	 * @return
+	 */
+	public int getX() {
+		return x;
+	}
+	
+	/**
+	 * metodo get para devolver el valor de y
+	 * 
+	 * @return
+	 */
+	public int getY() {
+		return y;
+	}
+	
+	/**
+	 * metodo para introducir un valor a x
+	 * 
+	 * @param x
+	 */
+	public void setX(int x) {
+        this.x = x;
+    }
+	
+	/**
+	 * metodo para introducir un valor a y
+	 * 
+	 * @param y
+	 */
+	public void setY(int y) {
+		this.y = y;
+	}
+	
+	/**
+	 * metodo toString para devolver ambos valores
+	 * 
+	 */
+	@Override
+    public String toString() {
+        return "("+x+","+y+")";
+    }
+
+}
